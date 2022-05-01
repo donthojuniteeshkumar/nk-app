@@ -9,7 +9,7 @@ import Temp from "./components/temp";
 function App() {
   return (
      <>
-        <DefaultHOC path="/" Component={Temp} />
+        <DefaultHOC path="/" exact component={Temp} />
      </>
   );
 }
