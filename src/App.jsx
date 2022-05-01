@@ -1,4 +1,4 @@
-// import { Route } from "react-router-dom";
+import {  } from "react-router-dom";
 
 // HOC
 import DefaultHOC from "./HOC/Default.HOC";
@@ -9,7 +9,7 @@ import Temp from "./components/temp";
 function App() {
   return (
      <>
-        <DefaultHOC path="/" element={<Temp/>} />
+        <DefaultHOC path="/" Component={Temp} />
      </>
   );
 }

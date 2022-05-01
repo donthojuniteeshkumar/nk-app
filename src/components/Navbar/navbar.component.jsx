@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { BiChevronRight } from "react-icons/bi";
 
 const NavSm = () => {
@@ -15,8 +15,8 @@ const NavSm = () => {
         </>
     );
 };
-// const NavMd = () => {};
-// const Navlg = () => {};
+//  const NavMd = () => {};
+//  const Navlg = () => {};
 
 function Navbar() {
     return (
